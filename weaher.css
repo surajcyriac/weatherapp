@@ -1,0 +1,93 @@
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to bottom, #4fbfec, #e6bc51);
+}
+.container {
+    display: flex;
+    width: 100%;
+}
+.left-panel {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #2e2d2d;
+}
+.left-panel h1 {
+    font-size: 3 rem;
+    margin: 0;
+}
+.left-panel img {
+    width: 200px;
+    height: auto;
+    margin: 20px 0;
+}
+.left-panel .temperature {
+    font-size: 3em;
+    margin: 0;
+}
+.left-panel .feels-like {
+    font-size: 1.2em;
+    margin: 0;
+}
+.left-panel .location {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.left-panel .date-time {
+    font-size: 0.9em;
+    color: #666;
+}
+.left-panel .weather-icon {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+.right-panel {
+    flex: 1;
+    background-color: #394148;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.right-panel input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.right-panel button {
+    width: 53%;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.right-panel button i {
+    font-size: 1.2em;
+}
+.right-panel .details {
+    margin-top: 20px;
+}
+.right-panel .details h2 {
+    font-size: 2.7em;
+    margin-bottom: 10px;
+}
+.right-panel .details p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+.names{
+    padding: 10px 0px;
+}
